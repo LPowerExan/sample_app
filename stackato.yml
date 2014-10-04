@@ -1,0 +1,10 @@
+app-dir: /home/liam/rails_projects/sample_app
+disk: 2048
+memory: 256
+name: lpowerRuby
+services:
+  free.postgresql-c8ea:
+    label: postgresql
+    plan: free
+    provider: core
+    version: 9.1
